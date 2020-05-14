@@ -24,13 +24,10 @@ Pod::Spec.new do |spec|
   
   spec.ios.deployment_target = "12.0"
   spec.swift_version = "5.0"
-  #spec.platform = {
-   # "ios": "12.0"
-#}
 
   spec.source       = { :git => "https://github.com/gmtaGovind/GkFrameworkT1.git", :tag => "1.0.0" }
 
-  spec.source_files  = "GKFrameworkT1/**/*"
+  spec.source_files  = "GKFrameworkT1/**/*.{swift}"
   # spec.dependency "JSONKit", "~> 1.4"
 
 end
